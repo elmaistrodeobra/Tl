@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Listas en HTML</title>
+    <style>
+        body {
+            background-color: #808080
+            color: #000000
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .example {
+            background-color: #b0b0b0;            padding: 10px;
+            margin: 10px 0;
+            font-family: "Courier New", monospace;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #000000;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tablas y Listas en HTML</h1>
+
+    <p>HTML proporciona elementos para organizar la información en tablas y listas. A continuación, se muestran ejemplos de cómo crear cada uno de estos elementos:</p>
+
+    <h2>Tablas en HTML</h2>
+    <p>Las tablas se utilizan para organizar datos en filas y columnas. Los elementos principales de una tabla son:</p>
+    <ul>
+        <li><code>&lt;table&gt;</code>: Define el contenedor de la tabla.</li>
+        <li><code>&lt;tr&gt;</code>: Define una fila de la tabla.</li>
+        <li><code>&lt;th&gt;</code>: Define una celda de encabezado (negrita y centrada por defecto).</li>
+        <li><code>&lt;td&gt;</code>: Define una celda de datos.</li>
+    </ul>
+    <div class="example">
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>28</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>35</td>
+                <td>Barcelona</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>22</td>
+                <td>Valencia</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>Listas en HTML</h2>
+    <p>HTML ofrece tres tipos principales de listas:</p>
+    <ul>
+        <li><code>&lt;ul&gt;</code>: Lista desordenada, donde cada ítem está marcado con un punto.</li>
+        <li><code>&lt;ol&gt;</code>: Lista ordenada, donde cada ítem está numerado.</li>
+        <li><code>&lt;dl&gt;</code>: Lista de definición, usada para pares de términos y descripciones.</li>
+    </ul>
+
+    <h3>Lista Desordenada (<code>&lt;ul&gt;</code>)</h3>
+    <p>Una lista desordenada se utiliza cuando el orden de los elementos no es importante:</p>
+    <div class="example">
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+    </div>
+
+    <h3>Lista Ordenada (<code>&lt;ol&gt;</code>)</h3>
+    <p>Una lista ordenada se utiliza cuando el orden de los elementos es importante:</p>
+    <div class="example">
+        <ol>
+            <li>Primer paso</li>
+            <li>Segundo paso</li>
+            <li>Tercer paso</li>
+        </ol>
+    </div>
+
+    <h3>Lista de Definición (<code>&lt;dl&gt;</code>)</h3>
+    <p>Una lista de definición se utiliza para pares de términos y descripciones:</p>
+    <div class="example">
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lenguaje de marcado utilizado para crear páginas web.</dd>
+            <dt>CSS</dt>
+            <dd>Lenguaje de estilos utilizado para diseñar páginas web.</dd>
+            <dt>JavaScript</dt>
+            <dd>Lenguaje de programación utilizado para añadir interactividad a las páginas web.</dd>
+        </dl>
+    </div>
+<h2><a href="https://elmaistrodeobra.github.io/Hp">HIPERBINCULOS<a> </h2>
+</body>
+</html>
